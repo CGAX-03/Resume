@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+
+/* GENERAL */
+* {
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.title {
+    font-size: 2.5rem ;
+    font-family: "Yellowtail";
+}
+
+
+/* HOME */
+.start {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("images/img-back.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.start .content {
+    max-width: 1300px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+
+}
+
+.start .content header {
+    padding: 30px;
+}
+
+.start .content header nav {
+    position: fixed;
+    margin-left: 55px;
+    background-color: #c95406;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+
+.start .content header nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.start .content header .logo {
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: "Yellowtail";
+    text-shadow: 0 0 35px #ffffff4f;
+}
+
+.start .content header .navbar {
+    position: fixed;
+    background-color: #c95406;
+    color: #fff;
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    line-height: 45px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.start .content header .navbar:hover {
+    color: #fff;
+    box-shadow: 0 0 35px #ffffff4f;
+    background-color: #c95406;
+    box-shadow: 0 0 10px #fff;
+}
+
+.start .content .info {
+    padding-bottom: 130px;
+}
+
+.start .content .info h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+.start .content .info h2 {
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+
+.start .content .info .smedia {
+    margin: 50px 0;
+}
+
+.start .content .info .smedia a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #33333359;
+    color: #c95406;
+    border: 2px solid #c95406;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 5px;
+    transition: .3s;
+}
+
+.start .content .info .smedia a:hover {
+    color: #fff;
+    box-shadow: 0 0 35px #ffffff4f;
+    background-color: #c95406;
+    box-shadow: 0 0 10px #fff;
+}
+
+.start .content .photo {
+    position: relative;
+}
+
+.start .content .photo img {
+    max-width: 250px;
+    border-radius: 50%;
+    border: 5px solid #c95406;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: -132px;
+    transform: translateX(-50%);
+}
+
+
+/* ABOUT */
+.about {
+    background-color: #fff;
+    padding: 160px 0 100px 0;
+    text-align: center;
+}
+
+.about .content {
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.about .content .stud {
+color: #c95406;
+font-weight: bold;
+margin-top: 15px;
+}
+
+.about .content p {
+    max-width: 800px;
+    margin: auto;
+}
+
+.about .content .stuff {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.about .content .stuff .col{
+    width: 22%;
+}
+
+
+.about .content .stuff .col i{
+    color: #c95406;
+    display: inline-block;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.about .content .stuff .col span{
+    display: block;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+/* CONTACT */
+
+.contact{
+    background-color: #202020;
+    padding: 140px 0 100px 0;
+    color: #e6e6e6;
+    text-align: center;
+}
+
+.contact .content{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.contact .content .title {
+font-size: 60px;
+margin-bottom: 20px;
+}
+
+.contact .content h3{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.contact .content .stuff{
+    display: flex;
+    justify-content: space-around;
+}
+.contact .content .stuff .col{
+    margin-top: 50px;
+}
+.contact .content .stuff .col h2{
+    color: #c95406;
+}
